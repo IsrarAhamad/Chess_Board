@@ -14,13 +14,13 @@ The project focuses on creating a production-quality user interface with smooth 
 
 ## 🚀 Live Demo
 
-https://your-project.vercel.app
+https://chess-board-bnhm.vercel.app/
 
 ---
 
 ## 📂 GitHub Repository
 
-https://github.com/your-username/xlchess-hero
+https://github.com/IsrarAhamad/Chess_Board
 
 ---
 
