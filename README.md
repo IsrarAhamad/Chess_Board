@@ -48,7 +48,7 @@ https://github.com/IsrarAhamad/Chess_Board
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/xlchess-hero.git
+git clone https://github.com/IsrarAhamad/Chess_Board.git
 ```
 
 ## Move into Project
@@ -320,9 +320,7 @@ If given additional time, I would implement:
 
 GitHub: https://github.com/Israr8957
 
-LinkedIn: https://www.linkedin.com/
-
-Email: ik6141333@gmail.com
+LinkedIn: https://www.linkedin.com/in/israr-ahamad-8839a8275/
 
 ---
 
