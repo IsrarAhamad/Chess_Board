@@ -1,7 +1,7 @@
-import HeroContent from "./HeroContent";
-import HeroBoard from "./HeroBoard";
-import HeroBackground from "./HeroBackground";
-import FloatingPiece from "./FloatingPiece";
+import HeroContent from "./HeroContent.jsx";
+import HeroBoard from "./HeroBoard.jsx";
+import HeroBackground from "./HeroBackgroundjsx";
+import FloatingPiece from "./FloatingPiecejsx";
 
 const Hero = () => {
   return (
@@ -18,7 +18,6 @@ const Hero = () => {
     >
       <HeroBackground />
 
-      {/* Background Floating Chess Pieces */}
 
       <FloatingPiece left="5%" top="-1%" size={70} duration={32} delay={0}>
         ♜
@@ -101,7 +100,6 @@ const Hero = () => {
       <FloatingPiece left="30%" top="45%" size={60} duration={28} delay={0}>
         ♝
       </FloatingPiece>
-      {/* Hero Content */}
 
       <div
         className="

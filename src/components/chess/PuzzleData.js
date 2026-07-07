@@ -1,7 +1,6 @@
 export const START_FEN =
   "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 
-// UCI Moves (Legal)
 export const PUZZLE_MOVES = [
   "e2e4",
   "e7e5",
@@ -39,8 +38,8 @@ export const PUZZLE_MOVES = [
   "b1d2",
   "c8d7",
 
-  "d4e5", // Capture 1
-  "d6e5", // Capture 2
+  "d4e5", 
+  "d6e5", 
 
   "d2f1",
   "f8d8",
@@ -51,8 +50,8 @@ export const PUZZLE_MOVES = [
   "b2b3",
   "c5c4",
 
-  "b3c4", // Capture 3
-  "b5c4", // Capture 4
+  "b3c4", 
+  "b5c4", 
 
   "c2d3",
   "a5c6"

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import HeroButton from "./HeroButton";
+import HeroButton from "./HeroButton.jsx";
 
 const HeroContent = () => {
   return (

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Chessboard } from "react-chessboard";
 import { Chess } from "chess.js";
-import { START_FEN, PUZZLE_MOVES } from "./PuzzleData";
+import { START_FEN, PUZZLE_MOVES } from "./PuzzleData.js";
 
 const MOVE_DELAY = 500;
 
@@ -108,7 +108,6 @@ export default function ChessBoard({
   }, [arrows]);
 
   const onPieceDrop = ({ sourceSquare, targetSquare }) => {
-    // Disable manual moves while autoplay is running
     if (isPlaying) return false;
 
     if (!gameRef.current) return false;

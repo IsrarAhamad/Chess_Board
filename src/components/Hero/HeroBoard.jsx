@@ -1,4 +1,4 @@
-import ChessBoard from "../Chess/ChessBoard";
+import ChessBoard from "../Chess/ChessBoard.jsx";
 import { useState } from "react";
 import { Play } from "lucide-react";
 import { motion } from "framer-motion";
@@ -102,7 +102,6 @@ const HeroBoard = () => {
           </div>
         </div>
 
-        {/* Buttons */}
 
         {isAutoPlaying ? (
           <button

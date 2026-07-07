@@ -29,7 +29,6 @@ const HeroButton = () => {
       y: mouseY,
     });
 
-    // Image movement
     x.set((mouseX - rect.width / 2) / 1.0);
     y.set((mouseY - rect.height / 2) / 2);
   };
@@ -78,7 +77,6 @@ const HeroButton = () => {
   lg:h-[65px]
 "
     >
-      {/* Cursor Glow */}
       <motion.div
         className="absolute inset-0"
         animate={{
@@ -93,7 +91,6 @@ const HeroButton = () => {
         }}
       />
 
-      {/* Play Image */}
       <motion.img
         src="/play icon.png"
         alt="Play"
