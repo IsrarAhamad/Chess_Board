@@ -1,7 +1,7 @@
 import HeroContent from "./HeroContent.jsx";
 import HeroBoard from "./HeroBoard.jsx";
-import HeroBackground from "./HeroBackgroundjsx";
-import FloatingPiece from "./FloatingPiecejsx";
+import HeroBackground from "./HeroBackground.jsx";
+import FloatingPiece from "./FloatingPiece.jsx";
 
 const Hero = () => {
   return (
@@ -17,7 +17,6 @@ const Hero = () => {
       "
     >
       <HeroBackground />
-
 
       <FloatingPiece left="5%" top="-1%" size={70} duration={32} delay={0}>
         ♜
